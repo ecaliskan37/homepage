@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/">
+        <label for="travel">Tercih edilen seyahat yöntemi:</label>
+        <select name="travel" id="travel" required>
+            <option disabled selected value="">Seç ... </option>
+            <option value="bike">Bisiklet</option>
+            <option value="car">Araba</option>
+            <option value="train">Tren</option>
+        </select>
+    </br>
+        <div>
+     Seyahat Bütçesi:
+        <input type="radio" id="tutumlu" name="bütçe" value="tutumlu" required >
+        <label for ="tutumlu" >Tutumlu</label>
+        <input type="radio" id="orta" name="bütçe" value="orta" />
+        <label for="orta">Orta</label>
+        <input type="radio" id="lüks" name="bütçe" value="lüks"/>
+        <label for ="lüks"> Lüks</label>
+    </div>
+        <div> 
+        <input type="submit" value="Yolla!" />
+    </div>
+    </form>
+    
+</body>
+</html>
